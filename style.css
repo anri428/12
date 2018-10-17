@@ -1,0 +1,30 @@
+body{
+	display: grid;
+	grid-template-areas:'header header'
+						'side main'
+						'footer footer';
+	grid-template-rows: 10% 1fr 10%;
+	grid-template-columns: 20% 1fr;
+	grid-gap: 10px;
+	height: 100vh;
+}
+
+header{
+	grid-area: header;
+	background-color: #74FFEA;
+	text-align: center;
+}
+aside{
+	grid-area: side;
+	background-color: #FEB5E1;
+}
+
+main{
+	grid-area: main;
+	background-color: #F2FF7A;
+}
+
+footer{
+	grid-area: footer;
+	background-color: #8BA6FC
+}
