@@ -65,6 +65,21 @@ footer{
 }
 
 @media screen and (max-width: 480px){
+	body{
+		grid-template-areas:'header'
+							'main'
+							'side'
+							'footer';
+		grid-template-rows: 10% 1fr 5% 10%;
+		grid-template-columns: 100%;
+
+
+	}
+	.main-grid{
+		grid-template-rows: repeat(12, 7.5%);
+		grid-template-columns: 80%;
+		grid-gap:1%;
+	}
 	
 
 }
