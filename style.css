@@ -23,6 +23,22 @@ main{
 	grid-area: main;
 	background-color: #F2FF7A;
 }
+.main-grid{
+	display:grid;
+	grid-template-rows: repeat(3, 110px);
+	grid-template-columns: repeat(4, 20%);
+	grid-gap: 4%;
+	justify-content: center;
+	padding: 20px;
+}
+
+.main-grid > div{
+		background-color: #fff;
+}
+
+
+
+
 
 footer{
 	grid-area: footer;
