@@ -33,7 +33,10 @@ main{
 }
 
 .main-grid > div{
-		background-color: #fff;
+	background-color: #fff;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
 
 
